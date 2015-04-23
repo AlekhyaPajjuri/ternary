@@ -27,6 +27,9 @@ Ternary is able to become self-hosted (or self-reproducing), meaning that a Tern
 ### Compiler
 To create a compiler, jump tables can be added to existing BF implementations. One that creates Linux ELF files should be possible to accomplish in ~150 bytes of x86.
 
+### Converter
+There is a Python script which can be used to convert existing BF code into Ternary.
+
 ### Todo
 * Self-hosted interpreter (based on dbfi)
 * Linux ELF compiler
