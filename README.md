@@ -1,6 +1,7 @@
 #Ternary Programming Language
-Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the BF, Ook!, and P'' programming languages. Here is the Hello World:
+Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF*, *Ook!*, and *P''* programming languages.
 
+**Hello World:**
 ```binary
 11111111111111110201111111110201111101111111011111110111000000001012011101110110010111020012
 00101201012001101010201111111111111120201111112001012000102000201111112010101010101020101010
@@ -31,7 +32,7 @@ Hello World!
 
 ### Acknowledgements
 Ternary would not be possible without work by the following people:
-* Corrado Böhm, for creating the P'' language in 1964.
-* Urban Mueller, for creating the BF language in 1993.
-* Oleg Mazonka and Daniel B. Cristofani, for dbfi and the dbfi-BF interpreter in 2003.
-* David Morgan-Mar, for creating the Ook! language in 2009.
+* *Corrado Böhm*, for creating the P'' language in 1964.
+* *Urban Mueller*, for creating the BF language in 1993.
+* *Oleg Mazonka and Daniel B. Cristofani*, for dbfi and the dbfi-BF interpreter in 2003.
+* *David Morgan-Mar*, for creating the Ook! language in 2009.
