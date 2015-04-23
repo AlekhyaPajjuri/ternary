@@ -32,8 +32,8 @@ There is a Python script which can be used to convert existing BF code into Tern
 
 |         | left | right | dec | inc | bjmp | fjmp | out | in |
 |---------|------|-------|-----|-----|------|------|-----|----|
-| BF OP   | <    | >     | -   | +   | ]    | [    | .   | ,  |
-| Ternary | 00   | 01    | 10  | 11  | 12   | 02   | 20  |    |
+| **BF OP**   | <    | >     | -   | +   | ]    | [    | .   | ,  |
+| **Ternary** | 00   | 01    | 10  | 11  | 12   | 02   | 20  | 21 |
 
 ### Todo
 * Self-hosted interpreter (based on dbfi)
