@@ -12,6 +12,13 @@ The language is Turing-complete, making it theoretically capable of computing an
 
 The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
 
+### Usage
+```
+root@box:~/ternary# g++ -std=c++11 ternary.cpp -o ternary
+root@box:~/ternary# ./ternary < hello.ter
+Hello World!
+```
+
 ### Interpreter
 The main interpreter is written in under 30 lines of C++11. It reads instructions from standard input and then executes the sequence. There is no hard-coded limit on memory for tape frames. Faster, smaller, and less memory-intensive implementations are far more than likely possible.
 
@@ -19,13 +26,6 @@ Ternary is able to become self-hosted (or self-reproducing), meaning that a Tern
 
 ### Compiler
 To create a compiler, jump tables can be added to existing BF implementations. One that creates Linux ELF files should be possible to accomplish in ~150 bytes of x86.
-
-### Usage
-```
-root@box:~/ternary# g++ -std=c++11 ternary.cpp -o ternary
-root@box:~/ternary# ./ternary < hello.ter
-Hello World!
-```
 
 ### Todo
 * Self-hosted interpreter (based on dbfi)
