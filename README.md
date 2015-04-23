@@ -10,6 +10,8 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 
 The language is Turing-complete, making it theoretically capable of computing any computable function or simulating any other computational model, if given access to an unlimited amount of memory.
 
+The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
+
 ### Interpreter
 The main interpreter is written in under 30 lines of C++11. It reads instructions from standard input and then executes the sequence. There is no hard-coded limit on memory for tape frames. Faster, smaller, and less memory-intensive implementations are far more than likely possible.
 
