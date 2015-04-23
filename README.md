@@ -1,0 +1,2 @@
+# ternary
+Ternary Programming Language
