@@ -10,7 +10,7 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 
 The language is Turing-complete, making it theoretically capable of computing any computable function or simulating any other computational model, if given access to an unlimited amount of memory.
 
-The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.  Anything that is not a 0, 1, or 2 is considered a comment or whitespace and is ignored.
+The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
 
 ### Usage
 ```
