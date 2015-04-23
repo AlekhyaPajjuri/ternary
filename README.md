@@ -1,5 +1,5 @@
 #Ternary Programming Language
-Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF*, *Ook!*, and *P''* programming languages.
+Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF*, *Ook!*, and *P''* programming languages. It can be considered a trivial BF command substitution.
 
 **Hello World:**
 ```binary
