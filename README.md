@@ -31,7 +31,7 @@ To create a compiler, jump tables can be added to existing BF implementations. O
 There is a Python script which can be used to convert existing BF code into Ternary.
 
 |             |left|right|dec|inc|bjmp|fjmp|out|in|
------------------------------------------------
+|-------------|----|-----|--|---|---|-----|---|---|
 | **BF OP**   | < | > | - | + | ] | [ | . | , |
 | **Ternary** | 00 | 01 | 10 | 11 | 12 | 02 | 20 | 21 |
 
