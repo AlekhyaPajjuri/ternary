@@ -11,7 +11,6 @@ int main()
     size_t p = 0, l = 1, i = 0;
 
     auto op = [&](char a, char b) -> bool { return c[i] == a && c[i + 1] == b; };
-    //std::getline(std::cin, c);
 
     for(; i < c.size(); i += 2, l = 1)
     {
