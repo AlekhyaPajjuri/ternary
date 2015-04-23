@@ -10,7 +10,7 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 
 The language is Turing-complete, making it theoretically capable of computing any computable function or simulating any other computational model, if given access to an unlimited amount of memory.
 
-The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
+The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.  Anything that is not a 0, 1, or 2 is considered a comment or whitespace and is ignored.
 
 ### Usage
 ```
@@ -26,6 +26,9 @@ Ternary is able to become self-hosted (or self-reproducing), meaning that a Tern
 
 ### Compiler
 To create a compiler, jump tables can be added to existing BF implementations. One that creates Linux ELF files should be possible to accomplish in ~150 bytes of x86.
+
+### Converter
+There is a Python script which can be used to convert existing BF code into Ternary.
 
 ### Todo
 * Self-hosted interpreter (based on dbfi)
