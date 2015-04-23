@@ -33,5 +33,5 @@ Hello World!
 Ternary would not be possible without work by the following people:
 * Corrado Böhm, for creating the P'' language in 1964.
 * Urban Mueller, for creating the BF language in 1993.
-* Oleg Mazonka and Daniel B. Cristofani, for discovering dbfi and writing the dbfi-BF interpreter in 2003.
+* Oleg Mazonka and Daniel B. Cristofani, for dbfi and the dbfi-BF interpreter in 2003.
 * David Morgan-Mar, for creating the Ook! language in 2009.
