@@ -30,7 +30,7 @@ Ternary is able to become self-hosted (or self-reproducing), meaning that a Tern
 To create a compiler, jump tables can be added to existing BF implementations. One that creates Linux ELF files should be possible to accomplish in ~150 bytes of x86.
 
 ### Converter
-There is a Python script which can be used to convert existing BF code into Ternary. Ill-formed code will lead to undefined behavior. There is an *examples* folder in the project root.
+There is a Python script which can be used to convert existing BF code into Ternary. The behavior of ill-formed code to the default interpreter is undefined (see common BF implementation issues). There is an *examples* folder in the project root.
 
 |         | left | right | dec | inc | bjmp | fjmp | out | in |
 |---------|------|-------|-----|-----|------|------|-----|----|
