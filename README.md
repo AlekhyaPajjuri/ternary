@@ -1,6 +1,14 @@
 #Ternary Programming Language
 Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF* (1993), *Ook!* (2009), and *P''* (1964) programming languages. It can be considered a trivial BF command substitution and has similarities with the Rule 110 elementary cellular automaton (which uses 3 bits to represent 8 states).
 
+![Ternary](http://i.imgur.com/0lKtL2X.jpg)
+
+The language is Turing-complete, making it theoretically capable of computing any computable function or simulating any other computational model, if given access to an unlimited amount of memory.
+
+The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
+
+### Examples
+
 **hello world**
 ```binary
 11111111111111110201111111110201111101111111011111110111000000001012011101110110010111020012
@@ -29,11 +37,7 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 01110000001012010101020000001101010110120000020011011012010200110110120000001012
 ```
 
-![Ternary](http://i.imgur.com/0lKtL2X.jpg)
-
-The language is Turing-complete, making it theoretically capable of computing any computable function or simulating any other computational model, if given access to an unlimited amount of memory.
-
-The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
+More can be found in the *examples* folder of the project root.
 
 ### Usage
 ```
