@@ -10,7 +10,7 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 
 **cat** 
 ```binary
-2102200210122112 (a program that echoes its input [this is a comment])
+2102200210122112 (a program that echoes its input [anything non-012 is a comment])
 ```
 
 ![Ternary](http://i.imgur.com/0lKtL2X.jpg)
