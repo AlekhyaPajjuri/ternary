@@ -1,5 +1,5 @@
 #Ternary Programming Language
-Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF*, *Ook!*, and *P''* programming languages.
+Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF* (1993), *Ook!* (2009), and *P''* (1964) programming languages. It can be considered a trivial BF command substitution and has similarities with the Rule 110 elementary cellular automaton (which uses 3 bits to represent 8 states).
 
 **Hello World:**
 ```binary
@@ -8,9 +8,11 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 1010101010200101112001111120
 ```
 
+![Ternary](http://i.imgur.com/0lKtL2X.jpg)
+
 The language is Turing-complete, making it theoretically capable of computing any computable function or simulating any other computational model, if given access to an unlimited amount of memory.
 
-The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.  Anything that is not a 0, 1, or 2 is considered a comment or whitespace and is ignored.
+The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
 
 ### Usage
 ```
@@ -28,7 +30,12 @@ Ternary is able to become self-hosted (or self-reproducing), meaning that a Tern
 To create a compiler, jump tables can be added to existing BF implementations. One that creates Linux ELF files should be possible to accomplish in ~150 bytes of x86.
 
 ### Converter
-There is a Python script which can be used to convert existing BF code into Ternary.
+There is a Python script which can be used to convert existing BF code into Ternary. Ill-formed code will lead to undefined behavior. There is an *examples* folder in the project root.
+
+|         | left | right | dec | inc | bjmp | fjmp | out | in |
+|---------|------|-------|-----|-----|------|------|-----|----|
+| **BF OP**   | <    | >     | -   | +   | ]    | [    | .   | ,  |
+| **Ternary** | 00   | 01    | 10  | 11  | 12   | 02   | 20  | 21 |
 
 ### Todo
 * Self-hosted interpreter (based on dbfi)
