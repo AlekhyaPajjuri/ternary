@@ -13,7 +13,7 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 2102200210122112 (a program that echoes its input [this is a comment])
 ```
 
-** Fibonacci sequence **
+**Fibonacci sequence**
 ```binary
 1111111111111111111111 <--- increment how many numbers to count
 01110101010111111111111111111111111111111111111111111111111111111111111111111111111111111111
