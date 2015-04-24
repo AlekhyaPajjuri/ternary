@@ -1,4 +1,5 @@
 #Ternary Programming Language
+![Ternary](http://i.imgur.com/0lKtL2X.jpg)
 Ternary is a programming language consisting of the ASCII characters 0, 1, and 2. It is based on the concepts of the *BF* (1993), *Ook!* (2009), and *P''* (1964) programming languages. It can be considered a trivial BF command substitution and has similarities with the Rule 110 elementary cellular automaton (which uses 3 bits to represent 8 states).
 
 **Hello World:**
@@ -46,6 +47,3 @@ Ternary would not be possible without work by the following people:
 * *Urban Müller*, for creating the BF language in 1993.
 * *Oleg Mazonka and Daniel B. Cristofani*, for dbfi and the dbfi-BF interpreter in 2003.
 * *David Morgan-Mar*, for creating the Ook! language in 2009.
-
-![Ternary](http://i.imgur.com/0lKtL2X.jpg)
-
