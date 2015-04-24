@@ -8,9 +8,9 @@ Ternary is a programming language consisting of the ASCII characters 0, 1, and 2
 1010101010200101112001111120
 ```
 
-**cat** (a program that echoes its input)
+**cat** 
 ```binary
-2102200210122112
+2102200210122112 (a program that echoes its input [this is a comment])
 ```
 
 ![Ternary](http://i.imgur.com/0lKtL2X.jpg)
