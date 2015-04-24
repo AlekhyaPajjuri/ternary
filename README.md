@@ -44,6 +44,8 @@ More can be found in the *examples* folder of the project root.
 root@box:~/ternary# g++ -std=c++11 ternary.cpp -o ternary
 root@box:~/ternary# ./ternary < hello.ter
 Hello World!
+root@box:~/ternary# ./ternary < fibonacci.ter
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
 ```
 
 ### Interpreter
