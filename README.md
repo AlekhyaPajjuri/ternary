@@ -7,6 +7,11 @@ The language is Turing-complete, making it theoretically capable of computing an
 
 The standard library consists of an I/O byte-stream, and the language supports memory read/write operations, conditional statements, and loops.
 
+|         | left | right | dec | inc | bjmp | fjmp | out | in |
+|---------|------|-------|-----|-----|------|------|-----|----|
+| **BF OP**   | <    | >     | -   | +   | ]    | [    | .   | ,  |
+| **Ternary** | 00   | 01    | 10  | 11  | 12   | 02   | 20  | 21 |
+
 ### Examples
 
 **hello world**
@@ -58,11 +63,6 @@ To create a compiler, jump tables can be added to existing BF implementations. O
 
 ### Converter
 There is a Python script which can be used to convert existing BF code into Ternary. The behavior of ill-formed code to the default interpreter is undefined (see common BF implementation issues). There is an *examples* folder in the project root.
-
-|         | left | right | dec | inc | bjmp | fjmp | out | in |
-|---------|------|-------|-----|-----|------|------|-----|----|
-| **BF OP**   | <    | >     | -   | +   | ]    | [    | .   | ,  |
-| **Ternary** | 00   | 01    | 10  | 11  | 12   | 02   | 20  | 21 |
 
 ### Todo
 * Self-hosted interpreter (based on dbfi)
