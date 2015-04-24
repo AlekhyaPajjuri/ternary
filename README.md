@@ -46,3 +46,6 @@ Ternary would not be possible without work by the following people:
 * *Urban Müller*, for creating the BF language in 1993.
 * *Oleg Mazonka and Daniel B. Cristofani*, for dbfi and the dbfi-BF interpreter in 2003.
 * *David Morgan-Mar*, for creating the Ook! language in 2009.
+
+![Ternary](http://i.imgur.com/0lKtL2X.jpg)
+
