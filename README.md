@@ -46,6 +46,8 @@ More can be found in the *examples* folder of the project root.
 
 ### Usage
 ```
+root@box:~# git clone https://github.com/zerosum0x0/ternary.git
+root@box:~# cd ternary
 root@box:~/ternary# g++ -std=c++11 ternary.cpp -o ternary
 root@box:~/ternary# ./ternary < hello.ter
 Hello World!
