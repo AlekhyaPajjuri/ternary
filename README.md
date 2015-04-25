@@ -46,12 +46,12 @@ More can be found in the *examples* folder of the project root.
 
 ### Usage
 ```
-~# git clone https://github.com/zerosum0x0/ternary.git
-~# cd ternary
-~/ternary# g++ -std=c++11 ternary.cpp -o ternary
-~/ternary# ./ternary < hello.ter
+root@box:~# git clone https://github.com/zerosum0x0/ternary.git
+root@box:~# cd ternary
+root@box:~/ternary# g++ -std=c++11 ternary.cpp -o ternary
+root@box:~/ternary# ./ternary < hello.ter
 Hello World!
-~/ternary# ./ternary < fibonacci.ter
+root@box:~/ternary# ./ternary < fibonacci.ter
 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
 ```
 
