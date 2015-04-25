@@ -49,6 +49,7 @@ More can be found in the *examples* folder of the project root.
 root@box:~# git clone https://github.com/zerosum0x0/ternary.git
 root@box:~# cd ternary
 root@box:~/ternary# g++ -std=c++11 ternary.cpp -o ternary
+
 root@box:~/ternary# ./ternary < examples/hello.ter
 Hello World!
 root@box:~/ternary# ./ternary < examples/fibonacci.ter
